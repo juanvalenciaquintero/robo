@@ -1,0 +1,99 @@
+@font-face {
+	font-family: 'Roboto', Arial, sans-serif;
+	src: url('Roboto-Regular.ttf');
+}
+#principal {
+	width:90%;
+	margin: 0 auto;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Roboto', Arial, sans-serif;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 5px;
+	color:#D9D9D9;
+}
+
+h3 {
+	margin:0;
+	padding:0;
+	font-size:1em;
+}
+
+
+
+#contenedor {
+	width:736px;
+	border:1px solid #4C3737;	
+	margin:20px auto;	
+	display:flex;
+
+	flex-wrap: wrap;	
+}
+
+.celda {
+	width:90px;
+	height:90px;
+	border:1px solid;	
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	background: url() no-repeat;
+	background-size: contain;
+
+}
+
+
+
+#controles {
+	width:736px;
+	border:1px solid;
+	display: flex;
+	justify-content: center;
+}
+
+button {
+		margin-top:20px;
+	}
+
+@media screen and (max-width:360px) {
+
+	body {
+		
+		background-color:#333232;
+	}
+
+	#contenedor {
+		width:304px;
+		box-shadow: 3px 3px 5px 5px #BAB9B9;
+	}
+
+	.celda {
+		width:36px;
+		height:36px;
+		border:1px solid;	
+		background-color:#D9D9D9;
+		
+	}
+
+	#mensajes {
+		width:75%;
+		height:30px;
+		background-color: #D9D9D9;
+		color:#020C4C;
+		border-radius: 5px;
+		display:flex;
+		justify-content: center;
+		align-items: center;
+		
+	}
+
+
+
+
+
+}
